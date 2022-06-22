@@ -1,38 +1,39 @@
-.App {
+/* .App {
   text-align: center;
-}
+} */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+:root {
+  --e-dark-purple: #1C0C5B;
+  --e-mid-dark-purple: #3D2C8D;
+  --e-mid-light-purple: #916BBF;
+  --e-light-purple: #916BBF;
+  --e-dark-yellow: #E3B71B;
+  --e-global-color-4d6997a: #0C1D69;
+  --e-global-color-6de1a1e: #FFFFFF;
+  --e-global-color-2cd3db5: #000000;
+  --e-global-color-e1a7fc9: #323648;
+  --e-global-color-e69d51d: #F5FAFF;
+  --e-global-color-8eb2a41: #FDB103;
+  --e-global-color-d72cebc: #F5FAFF;
+  --e-global-color-bd38887: #530892;
+  --e-global-color-4091024: #BF612A;
+  --e-global-color-d876bd1: #734C36;
+  --e-global-color-f9a17ac: #F29C50;
+  --e-global-color-489c9fd: #383D59;
+  --e-global-color-45e46b1: #F2CAA7;
+  --e-global-color-bee9b31: #FFFFFF;
+  --e-global-color-ba6f0c4: #C7002B;
+  --e-global-color-c8d15b3: #C7B300;
+  --e-global-color-44c7a33: #0056C7;
+  --e-global-color-9357988: #C75000;
+  --e-global-color-0ea0c87: #990000;
+  --e-global-color-0b1941f: #122850;
+  --e-global-typography-primary-font-family: "Roboto";
+  --e-global-typography-primary-font-weight: 600;
+  --e-global-typography-secondary-font-family: "Roboto Slab";
+  --e-global-typography-secondary-font-weight: 400;
+  --e-global-typography-text-font-family: "Roboto";
+  --e-global-typography-text-font-weight: 400;
+  --e-global-typography-accent-font-family: "Roboto";
+  --e-global-typography-accent-font-weight: 500;
 }

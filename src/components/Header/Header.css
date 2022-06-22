@@ -1,0 +1,51 @@
+#header-container nav {
+    background-color: var(--e-dark-purple);
+    height: 84px;
+    font-weight: bold;
+    /* height: auto; */
+}
+
+#header-container nav .navbar-brand{
+    font-size: 18px;
+}
+
+#header-container nav .nav-link {
+    color: white;
+    margin-right: 15px;
+}
+
+#header-container {
+    background-color: var(--e-mid-light-purple);
+    padding-top: 29px;
+
+}
+
+#header-container .container {
+    background-color: var(--e-dark-purple);
+}
+
+#header-container #responsive-navbar-nav{
+    flex-grow: 0;
+}
+
+#header-container button {
+    border-radius: 50px;
+    height: 40px;
+    border: 3px;
+    border: 3px solid var(--e-dark-yellow);
+    font-weight: bold;
+    width: 100px;
+}
+
+#header-container button#signup-header-button {
+    background-color: var(--e-dark-yellow);
+}
+
+#header-container button#login-header-button {
+    background-color: transparent;
+    margin-right: 15px;
+}
+
+#header-container .navbar-collapse.collapse.show {
+    background-color: var(--e-dark-purple);
+}
