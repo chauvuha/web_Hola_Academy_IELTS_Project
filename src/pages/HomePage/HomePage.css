@@ -20,12 +20,11 @@
 }
 
 .ta-center {
-    text-align:center
+    text-align: center
 }
 
 .ta-left {
     text-align: left
-
 }
 
 #homepage-banner-image {
@@ -38,14 +37,12 @@
 #homepage-banner-image .banner-video {
     background-image: url(https://site.groupe-psa.com/content/uploads/sites/9/2016/12/white-background-2.jpg);
     height: 350px;
-    width: 55%;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
 }
 
 #homepage-banner-image .banner-text {
-    width: 45%;
-    margin-left: 30px;
+    padding-left: 30px;
 }
 
 #homepage-banner-image .banner-text h1 {
@@ -73,18 +70,11 @@
 }
 
 .homepage-2nd-sec .column {
-    width: 448px;
     height: 550px;
     background: var(--e-mid-light-purple);
     border-radius: 20px;
     padding: 20px;
 }
-
-.homepage-2nd-sec .second-column,
-.homepage-2nd-sec .third-column {
-    margin-left: 20px;
-}
-
 
 .homepage-3rd-sec {
     padding-bottom: 40px;
@@ -97,4 +87,46 @@
 .homepage-4th-sec {
     padding-top: 40px;
     background-color: #EDEDED
+}
+
+
+.course {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    height: 386px;
+    margin-top: 20px;
+}
+
+.course-image {
+    background: linear-gradient(360deg, #3D2C8D 0%, rgba(61, 44, 141, 0) 100%), linear-gradient(0deg, rgba(61, 44, 141, 0.3), rgba(61, 44, 141, 0.3)), url(https://media.edutopia.org/styles/responsive_2880px_16x9/s3/sites/default/files/masters/2022-01/iStock-1324921652-crop.jpg);
+    border-radius: 20px 20px 0px 0px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 308px;
+}
+
+.course-text {
+    font-size: 22px;
+}
+
+.course-image-text {
+    padding-left: 20px;
+}
+
+@media (max-width: 800px) {
+    .plr-20 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #homepage-banner-image {
+        padding-top: 350px;
+        padding-bottom: 500px;
+    }
+
+    .homepage-2nd-sec {
+        height: 1700px;
+    }
 }

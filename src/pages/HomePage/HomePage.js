@@ -1,45 +1,65 @@
 import './HomePage.css'
 import Button from 'react-bootstrap/Button';
+import Container from 'react-bootstrap/Container';
+import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
+
 
 
 export default function HomePage() {
     return (
         <div className="homepage" id="homepage">
             <div id="homepage-banner-image" className="d-flex  plr-20 white">
-                <div className="banner-video"></div>
-                <div className="banner-text">
-                    <h1 className="bold">PLAN <span className="yellow">BETTER</span></h1>
-                    <h1 className="bold">REACH <span className="yellow">HIGHER</span></h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lectus malesuada gravida urna praesent lobortis consequat. Facilisi eget semper convallis feugiat nunc lectus odio.</p>
-                    <Button className="bold">Join Us</Button>
-                </div>
+                <Container>
+                    <Row>
+                        <Col className="banner-video" xs={12} md={6} lg={6}></Col>
+                        <Col className="banner-text" xs={12} md={6} lg={6}>
+                            <h1 className="bold">PLAN <span className="yellow">BETTER</span></h1>
+                            <h1 className="bold">REACH <span className="yellow">HIGHER</span></h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lectus malesuada gravida urna praesent lobortis consequat. Facilisi eget semper convallis feugiat nunc lectus odio.</p>
+                            <Button className="bold">Join Us</Button>
+                        </Col>
+                    </Row>
+                </Container>
             </div>
             <div className="homepage-2nd-sec white">
                 <div className="column-container d-flex plr-20">
-                    <div className="column first-column d-flex flex-column justify-content-sm-between">
-                        <i class="bi bi-journal-bookmark"></i>
-                        <div className="column-text">
-                            <div className="third-column-header">Hệ thống luyện tập</div>
-                            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lectus malesuada gravida urna praesent lobortis consequat. Facilisi eget semper convallis feugiat nunc lectus odio.
-                            </p>
-                        </div>
-                    </div>
-                    <div className="column second-column d-flex flex-column justify-content-sm-between">
-                        <i class="bi bi-journal-bookmark"></i>
-                        <div className="column-text">
-                            <div className="third-column-header">Hệ thống luyện tập</div>
-                            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lectus malesuada gravida urna praesent lobortis consequat. Facilisi eget semper convallis feugiat nunc lectus odio.
-                            </p>
-                        </div>
-                    </div>
-                    <div className="column third-column d-flex flex-column justify-content-sm-between">
-                        <i class="bi bi-journal-bookmark"></i>
-                        <div className="column-text">
-                            <div className="third-column-header">Hệ thống luyện tập</div>
-                            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lectus malesuada gravida urna praesent lobortis consequat. Facilisi eget semper convallis feugiat nunc lectus odio.
-                            </p>
-                        </div>
-                    </div>
+                    <Container>
+                        <Row>
+                            <Col xs={12} md={12} lg={4}>
+                                <div className="column first-column d-flex flex-column justify-content-sm-between">
+                                    <i class="bi bi-journal-bookmark"></i>
+                                    <div className="column-text">
+                                        <div className="third-column-header">Hệ thống luyện tập</div>
+                                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lectus malesuada gravida urna praesent lobortis consequat. Facilisi eget semper convallis feugiat nunc lectus odio.
+                                        </p>
+                                    </div>
+                                </div>
+                            </Col>
+
+                            <Col xs={12} md={12} lg={4}>
+                                <div className="column second-column d-flex flex-column justify-content-sm-between">
+                                    <i class="bi bi-journal-bookmark"></i>
+                                    <div className="column-text">
+                                        <div className="third-column-header">Hệ thống luyện tập</div>
+                                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lectus malesuada gravida urna praesent lobortis consequat. Facilisi eget semper convallis feugiat nunc lectus odio.
+                                        </p>
+                                    </div>
+                                </div>
+                            </Col>
+                            <Col xs={12} md={12} lg={4}>
+                                <div className="column third-column d-flex flex-column justify-content-sm-between">
+                                    <i class="bi bi-journal-bookmark"></i>
+                                    <div className="column-text">
+                                        <div className="third-column-header">Hệ thống luyện tập</div>
+                                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lectus malesuada gravida urna praesent lobortis consequat. Facilisi eget semper convallis feugiat nunc lectus odio.
+                                        </p>
+                                    </div>
+                                </div>
+                            </Col>
+                        </Row>
+
+                    </Container>
 
 
                 </div>
@@ -60,10 +80,79 @@ export default function HomePage() {
                 </div>
                 <Button className="bold">Tìm hiểu thêm</Button>
             </div>
-            <div className="homepage-4th-sec ta-center plr-20">
-            <h1 className="purple bold">JOIN US</h1>
-            <p className="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lectus malesuada gravida urna praesent lobortis consequat. Facilisi eget semper convallis feugiat nunc lectus odio.
+            <div className="homepage-4th-sec plr-20">
+                <h1 className="purple bold ta-center">JOIN US</h1>
+                <p className="ta-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lectus malesuada gravida urna praesent lobortis consequat. Facilisi eget semper convallis feugiat nunc lectus odio.
                 </p>
+                <Container>
+                    <Row>
+                        <Col xs={12} md={12} lg={6}>
+                        <div className="course">
+                                <div className="course-image d-flex flex-column justify-content-end bold white">
+                                    <h1 className="course-image-text">Khoá học IELTS 4.5+</h1>
+                                </div>
+                                <div className="course-text d-flex flex-column justify-content-end">
+                                    <Container>
+                                        <Row>
+                                            <Col><p className="m-0"> Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                            </p>
+                                            </Col>
+                                        </Row>
+                                    </Container>
+                                </div>
+                            </div>
+                        </Col>
+                        <Col xs={12} md={12} lg={6}>
+                        <div className="course">
+                                <div className="course-image d-flex flex-column justify-content-end bold white">
+                                    <h1 className="course-image-text">Khoá học IELTS 4.5+</h1>
+                                </div>
+                                <div className="course-text d-flex flex-column justify-content-end">
+                                    <Container>
+                                        <Row>
+                                            <Col><p className="m-0"> Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                            </p>
+                                            </Col>
+                                        </Row>
+                                    </Container>
+                                </div>
+                            </div>
+                        </Col>
+                        <Col xs={12} md={12} lg={6}>
+                        <div className="course">
+                                <div className="course-image d-flex flex-column justify-content-end bold white">
+                                    <h1 className="course-image-text">Khoá học IELTS 4.5+</h1>
+                                </div>
+                                <div className="course-text d-flex flex-column justify-content-end">
+                                    <Container>
+                                        <Row>
+                                            <Col><p className="m-0"> Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                            </p>
+                                            </Col>
+                                        </Row>
+                                    </Container>
+                                </div>
+                            </div>
+                        </Col>
+                        <Col xs={12} md={12} lg={6}>
+                        <div className="course">
+                                <div className="course-image d-flex flex-column justify-content-end bold white">
+                                    <h1 className="course-image-text">Khoá học IELTS 4.5+</h1>
+                                </div>
+                                <div className="course-text d-flex flex-column justify-content-end">
+                                    <Container>
+                                        <Row>
+                                            <Col><p className="m-0"> Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                            </p>
+                                            </Col>
+                                        </Row>
+                                    </Container>
+                                </div>
+                            </div>
+                        </Col>
+                    </Row>
+
+                </Container>
             </div>
         </div>
     )
