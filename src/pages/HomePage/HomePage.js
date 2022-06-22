@@ -87,7 +87,7 @@ export default function HomePage() {
                 <Container>
                     <Row>
                         <Col xs={12} md={12} lg={6}>
-                        <div className="course">
+                            <div className="course">
                                 <div className="course-image d-flex flex-column justify-content-end bold white">
                                     <h1 className="course-image-text">Khoá học IELTS 4.5+</h1>
                                 </div>
@@ -103,7 +103,7 @@ export default function HomePage() {
                             </div>
                         </Col>
                         <Col xs={12} md={12} lg={6}>
-                        <div className="course">
+                            <div className="course">
                                 <div className="course-image d-flex flex-column justify-content-end bold white">
                                     <h1 className="course-image-text">Khoá học IELTS 4.5+</h1>
                                 </div>
@@ -119,7 +119,7 @@ export default function HomePage() {
                             </div>
                         </Col>
                         <Col xs={12} md={12} lg={6}>
-                        <div className="course">
+                            <div className="course">
                                 <div className="course-image d-flex flex-column justify-content-end bold white">
                                     <h1 className="course-image-text">Khoá học IELTS 4.5+</h1>
                                 </div>
@@ -135,7 +135,7 @@ export default function HomePage() {
                             </div>
                         </Col>
                         <Col xs={12} md={12} lg={6}>
-                        <div className="course">
+                            <div className="course">
                                 <div className="course-image d-flex flex-column justify-content-end bold white">
                                     <h1 className="course-image-text">Khoá học IELTS 4.5+</h1>
                                 </div>
@@ -147,6 +147,46 @@ export default function HomePage() {
                                             </Col>
                                         </Row>
                                     </Container>
+                                </div>
+                            </div>
+                        </Col>
+                    </Row>
+
+                </Container>
+            </div>
+            <div className="homepage-5th-sec plr-20">
+                <h1 className="purple bold ta-center">TÌM HIỂU VỀ HELLO IELTS</h1>
+                <p className="ta-center">Lorem ipsum dolor sit amet </p>
+                <Container>
+                    <Row>
+                        <Col xs={12} md={12} lg={4}>
+                            <div className="column first-column d-flex flex-column justify-content-sm-center">
+                                <i class="bi bi-journal-bookmark"></i>
+                                <div className="column-text ta-center">
+                                    <h1 className="third-column-header purple bold">About Us</h1>
+                                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lectus malesuada gravida urna praesent lobortis consequat. Facilisi eget semper convallis feugiat nunc lectus odio.
+                                    </p>
+                                </div>
+                            </div>
+                        </Col>
+
+                        <Col xs={12} md={12} lg={4}>
+                            <div className="column first-column d-flex flex-column justify-content-sm-center">
+                                <i class="bi bi-journal-bookmark"></i>
+                                <div className="column-text ta-center">
+                                    <h1 className="third-column-header purple bold">About Us</h1>
+                                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lectus malesuada gravida urna praesent lobortis consequat. Facilisi eget semper convallis feugiat nunc lectus odio.
+                                    </p>
+                                </div>
+                            </div>
+                        </Col>
+                        <Col xs={12} md={12} lg={4}>
+                            <div className="column first-column d-flex flex-column justify-content-sm-center">
+                                <i class="bi bi-journal-bookmark"></i>
+                                <div className="column-text ta-center">
+                                    <h1 className="third-column-header purple bold">About Us</h1>
+                                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lectus malesuada gravida urna praesent lobortis consequat. Facilisi eget semper convallis feugiat nunc lectus odio.
+                                    </p>
                                 </div>
                             </div>
                         </Col>
