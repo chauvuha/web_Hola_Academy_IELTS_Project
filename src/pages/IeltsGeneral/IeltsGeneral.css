@@ -1,0 +1,8 @@
+.ielts-general-banner {
+    background: linear-gradient(0deg, rgba(61, 44, 141, 0.9), rgba(61, 44, 141, 0.9)), url(https://media.edutopia.org/styles/responsive_2880px_16x9/s3/sites/default/files/masters/2022-01/iStock-1324921652-crop.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}

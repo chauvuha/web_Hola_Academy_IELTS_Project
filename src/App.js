@@ -2,7 +2,9 @@ import './App.css';
 import HomePage from './pages/HomePage/HomePage';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
-import IeltsInfo from './pages/IeltsInfo/IeltsInfo'
+import IeltsInfo from './pages/IeltsInfo/IeltsInfo';
+import IeltsGeneral from './pages/IeltsGeneral/IeltsGeneral'
+
 
 
 
@@ -12,7 +14,8 @@ function App() {
   return (
     <div className="App">
         <Header />
-        <IeltsInfo />
+        <IeltsGeneral />
+        {/* <IeltsInfo /> */}
         {/* <HomePage /> */}
         <Footer />
         {/* <IeltsInfo /> */}
