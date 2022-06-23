@@ -10,9 +10,13 @@ import Button from 'react-bootstrap/Button';
 
 export default function IeltsInfo() {
     return (
-        <div className="ielts-info-page-container plr-20">
+        <div className="ielts-info-page">
+            <div className="ielts-info-banner ta-center plr-20">
+                <div className="ielts-info-banner-header white"><h1 className="bold">IELTS EXAM INFOMATION</h1></div>
+                <div className="ielts-info-banner-content white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus consequat, tellus in pellentesque nec. Leo augue sem orci, odio. Vestibulum pellentesque sit in vel tristique enim. Quis volutpat, fermentum quis tellus tellus amet lacus suspendisse. Malesuada pharetra, mi, elementum id facilisis non, in scelerisque quam. Pellentesque fringilla morbi at bibendum. Eleifend malesuada sed commodo fringilla odio. Lobortis quis sed integer vitae egestas fusce in. Quis tellus pellentesque lacus blandit. Leo maecenas aliquet ac ligula adipiscing nam. Tristique egestas etiam pharetra cras massa sit vel pharetra quis.</div>
+            </div>
             <Container>
-                <Row>
+                <Row className="ielts-info-page-container">
                     <Col xs={12} md={6} lg={4}>
                         <div className="ielts-info-sidebar ta-left">
                             <Accordion defaultActiveKey={['0']} alwaysOpen>
@@ -53,7 +57,7 @@ export default function IeltsInfo() {
                             <div className="ielts-info-content-header-inner">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna ultricies nulla egestas commodo diam rhoncus commodo tortor. Neque tincidunt mi morbi tempor. Consectetur purus a quam sed sit tellus. Sed purus vel sollicitudin felis et accumsan. Nam interdum adipiscing lectus massa. Id consequat vitae mauris, arcu id egestas urna sagittis. Pellentesque porta egestas praesent condimentum sed fusce ullamcorper arcu.
                                 Consequat justo vitae quis nunc, scelerisque faucibus pretium euismod. Egestas praesent feugiat facilisis euismod aenean. Mi viverra velit felis dignissim lorem eros. Praesent auctor imperdiet neque massa orci nunc duis nulla. Cum dui sed quam non tortor nunc sed. Egestas diam diam faucibus suscipit diam accumsan amet sed. Dolor blandit enim, laoreet et. Mi volutpat, turpis urna, mattis morbi. Massa lacus tristique fusce faucibus. Nunc a tincidunt erat in malesuada arcu ac sed sem. Iaculis aliquam proin ornare ut sit diam feugiat ornare. Consectetur leo nibh ultricies lectus faucibus massa quam ornare.
                                 Rhoncus tincidunt sem sapien aliquet. In lobortis amet, dolor suspendisse in pharetra. Nunc sed est enim vitae et fusce ut. Integer convallis at tortor facilisi risus purus ornare. Venenatis cursus habitasse ultrices vulputate ultricies eleifend porttitor. At arcu, et, in ullamcorper. Tincidunt ac velit suspendisse elit tincidunt interdum donec vulputate. Pellentesque fames quis sed lectus netus cras lacinia eget id. Sit ornare sit velit lorem quis. Posuere sed velit tristique pellentesque lectus.
-                                Et sem phasellus nunc accumsan. Euismod vivamus purus maecenas morbi dictum mattis libero. Ac sed urna venenatis varius. Purus, ipsum magna feugiat praesent proin adipiscing aliquam etiam. Sollicitudin sed interdum sed enim, montes, dignissim quis erat sed. In auctor sed magna risus eget enim quam. Ultricies consectetur eget et placerat sit. Pellentesque sem amet, quis at. Orci, pulvinar feugiat donec ipsum egestas egestas porta sagittis, ultrices. Natoque quisque fermentum suspendisse neque, sapien aliquam, tempor. Enim et leo lorem mollis porta purus senectus scelerisque imperdiet.
+                                Et sem phasellus nunc accumsan. 
                             </div>
                         </div>
                     </Col>
