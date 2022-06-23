@@ -3,10 +3,18 @@ import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
+import Collapse from 'react-bootstrap/Collapse';
+import React, { useState } from 'react';
+
+
 
 
 
 export default function HomePage() {
+    const [open, setOpen] = useState(false);
+    const [openn, setOpenn] = useState(false);
+
+
     return (
         <div className="homepage" id="homepage">
             <div id="homepage-banner-image" className="d-flex  plr-20 white">
@@ -30,7 +38,7 @@ export default function HomePage() {
                                 <div className="column first-column d-flex flex-column justify-content-sm-between">
                                     <i class="bi bi-journal-bookmark"></i>
                                     <div className="column-text">
-                                        <div className="third-column-header">Hệ thống luyện tập</div>
+                                        <h1 className="third-column-header bold">Hệ thống luyện tập</h1>
                                         <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lectus malesuada gravida urna praesent lobortis consequat. Facilisi eget semper convallis feugiat nunc lectus odio.
                                         </p>
                                     </div>
@@ -41,7 +49,7 @@ export default function HomePage() {
                                 <div className="column second-column d-flex flex-column justify-content-sm-between">
                                     <i class="bi bi-journal-bookmark"></i>
                                     <div className="column-text">
-                                        <div className="third-column-header">Hệ thống luyện tập</div>
+                                        <h1 className="third-column-header bold">Hệ thống luyện tập</h1>
                                         <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lectus malesuada gravida urna praesent lobortis consequat. Facilisi eget semper convallis feugiat nunc lectus odio.
                                         </p>
                                     </div>
@@ -51,7 +59,7 @@ export default function HomePage() {
                                 <div className="column third-column d-flex flex-column justify-content-sm-between">
                                     <i class="bi bi-journal-bookmark"></i>
                                     <div className="column-text">
-                                        <div className="third-column-header">Hệ thống luyện tập</div>
+                                        <h1 className="third-column-header bold">Hệ thống luyện tập</h1>
                                         <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lectus malesuada gravida urna praesent lobortis consequat. Facilisi eget semper convallis feugiat nunc lectus odio.
                                         </p>
                                     </div>
@@ -89,7 +97,7 @@ export default function HomePage() {
                         <Col xs={12} md={12} lg={6}>
                             <div className="course">
                                 <div className="course-image d-flex flex-column justify-content-end bold white">
-                                    <h1 className="course-image-text">Khoá học IELTS 4.5+</h1>
+                                    <h1 className="course-image-text bold">Khoá học IELTS 4.5+</h1>
                                 </div>
                                 <div className="course-text d-flex flex-column justify-content-end">
                                     <Container>
@@ -105,7 +113,7 @@ export default function HomePage() {
                         <Col xs={12} md={12} lg={6}>
                             <div className="course">
                                 <div className="course-image d-flex flex-column justify-content-end bold white">
-                                    <h1 className="course-image-text">Khoá học IELTS 4.5+</h1>
+                                    <h1 className="course-image-text bold">Khoá học IELTS 4.5+</h1>
                                 </div>
                                 <div className="course-text d-flex flex-column justify-content-end">
                                     <Container>
@@ -121,7 +129,7 @@ export default function HomePage() {
                         <Col xs={12} md={12} lg={6}>
                             <div className="course">
                                 <div className="course-image d-flex flex-column justify-content-end bold white">
-                                    <h1 className="course-image-text">Khoá học IELTS 4.5+</h1>
+                                    <h1 className="course-image-text bold">Khoá học IELTS 4.5+</h1>
                                 </div>
                                 <div className="course-text d-flex flex-column justify-content-end">
                                     <Container>
@@ -137,7 +145,7 @@ export default function HomePage() {
                         <Col xs={12} md={12} lg={6}>
                             <div className="course">
                                 <div className="course-image d-flex flex-column justify-content-end bold white">
-                                    <h1 className="course-image-text">Khoá học IELTS 4.5+</h1>
+                                    <h1 className="course-image-text bold">Khoá học IELTS 4.5+</h1>
                                 </div>
                                 <div className="course-text d-flex flex-column justify-content-end">
                                     <Container>
@@ -160,7 +168,7 @@ export default function HomePage() {
                 <Container>
                     <Row>
                         <Col xs={12} md={12} lg={4}>
-                            <div className="column first-column d-flex flex-column justify-content-sm-center">
+                            <div className="column first-column d-flex flex-column justify-content-sm-center ta-center">
                                 <i class="bi bi-journal-bookmark"></i>
                                 <div className="column-text ta-center">
                                     <h1 className="third-column-header purple bold">About Us</h1>
@@ -171,7 +179,7 @@ export default function HomePage() {
                         </Col>
 
                         <Col xs={12} md={12} lg={4}>
-                            <div className="column first-column d-flex flex-column justify-content-sm-center">
+                            <div className="column first-column d-flex flex-column justify-content-sm-center ta-center">
                                 <i class="bi bi-journal-bookmark"></i>
                                 <div className="column-text ta-center">
                                     <h1 className="third-column-header purple bold">About Us</h1>
@@ -181,7 +189,7 @@ export default function HomePage() {
                             </div>
                         </Col>
                         <Col xs={12} md={12} lg={4}>
-                            <div className="column first-column d-flex flex-column justify-content-sm-center">
+                            <div className="column first-column d-flex flex-column justify-content-sm-center ta-center">
                                 <i class="bi bi-journal-bookmark"></i>
                                 <div className="column-text ta-center">
                                     <h1 className="third-column-header purple bold">About Us</h1>
@@ -193,6 +201,38 @@ export default function HomePage() {
                     </Row>
 
                 </Container>
+                <Button
+                    onClick={() => setOpen(!open)}
+                    aria-controls="example-collapse-text"
+                    aria-expanded={open}
+                >
+                    click
+                </Button>
+
+                <Button
+                    onClick={() => setOpenn(!openn)}
+                    aria-controls="example-collapse-text"
+                    aria-expanded={openn}
+                >
+                    click
+                </Button>
+
+                <div>
+                    <Collapse in={open}>
+                        <div id="example-collapse-text">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+                            terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer
+                            labore wes anderson cred nesciunt sapiente ea proident.
+                        </div>
+                    </Collapse>
+                    <Collapse in={openn}>
+                        <div id="example-collapse-text">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+                            terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer
+                            labore wes anderson cred nesciunt sapiente ea proident.
+                        </div>
+                    </Collapse>
+                </div>
             </div>
         </div>
     )
