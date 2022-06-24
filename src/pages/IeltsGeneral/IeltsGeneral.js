@@ -17,7 +17,7 @@ function CircularProgressWithLabel(props) {
                 variant="determinate"
                 sx={{
                     color: (theme) =>
-                        theme.palette.grey[theme.palette.mode === 'light' ? 200 : 800],
+                        theme.palette.grey[theme.palette.mode === 'light' ? 400 : 800],
                 }}
                 size={140}
                 thickness={4}
@@ -77,10 +77,14 @@ export default function IeltsGeneral() {
                 <Container>
                     <Row className="ielts-test-selection">
                         <Col>
-                            <Button><h1>ELTS Academic</h1></Button>
+                            <Button className="ielts-test-selection-button"><h1>
+                                <i class="bi bi-newspaper"></i>
+                                IELTS Academic</h1></Button>
                         </Col>
                         <Col>
-                            <Button><h1>IELTS General Training</h1></Button>
+                            <Button className="ielts-test-selection-button"><h1>
+                                <i class="bi bi-play-btn-fill"></i>
+                                IELTS General Training</h1></Button>
                         </Col>
                     </Row>
                 </Container>
@@ -88,19 +92,206 @@ export default function IeltsGeneral() {
                 <div className="practice-test-section">
                     <h1 className="practice-test-section-title bold white">Practice 1</h1>
                     <Container className="practice-test-section-part">
-                        <Row>
-                            <Col>
-                                <CircularProgressWithLabel value={75} icon={<MenuBookIcon />} />
-                                <Button className="practice-test-button-play bold">Reading</Button>
+                        <Row className="plr-10">
+                            <Col className="practice-test-section-column">
+                                <div>
+                                    <CircularProgressWithLabel value={75} icon={<MenuBookIcon />} />
+                                </div>
+                                <div className="practice-test-section-column-button d-flex align-items-center justify-content-center">
+                                    <Button className="practice-test-button-play bold">
+                                        Reading
+                                        <i class="bi bi-play-btn-fill"></i>
+                                    </Button>
+                                </div>
                             </Col>
-                            <Col>
-                                <CircularProgressWithLabel value={25} icon={<MenuBookIcon />} />
+                            <Col className="practice-test-section-column">
+                                <div>
+                                    <CircularProgressWithLabel value={75} icon={<MenuBookIcon />} />
+                                </div>
+                                <div className="practice-test-section-column-button d-flex align-items-center justify-content-center">
+                                    <Button className="practice-test-button-play bold">
+                                        Reading
+                                        <i class="bi bi-play-btn-fill"></i>
+                                    </Button>
+                                </div>
                             </Col>
-                            <Col>
-                                <CircularProgressWithLabel value={25} icon={<MenuBookIcon />} />
+                            <Col className="practice-test-section-column">
+                                <div>
+                                    <CircularProgressWithLabel value={75} icon={<MenuBookIcon />} />
+                                </div>
+                                <div className="practice-test-section-column-button d-flex align-items-center justify-content-center">
+                                    <Button className="practice-test-button-play bold">
+                                        Reading
+                                        <i class="bi bi-play-btn-fill"></i>
+                                    </Button>
+                                </div>
                             </Col>
-                            <Col>
-                                <CircularProgressWithLabel value={25} icon={<MenuBookIcon />} />
+                            <Col className="practice-test-section-column">
+                                <div>
+                                    <CircularProgressWithLabel value={75} icon={<MenuBookIcon />} />
+                                </div>
+                                <div className="practice-test-section-column-button d-flex align-items-center justify-content-center">
+                                    <Button className="practice-test-button-play bold">
+                                        Reading
+                                        <i class="bi bi-play-btn-fill"></i>
+                                    </Button>
+                                </div>
+                            </Col>
+                        </Row>
+                    </Container>
+
+                </div>
+                <div className="practice-test-section">
+                    <h1 className="practice-test-section-title bold white">Practice 1</h1>
+                    <Container className="practice-test-section-part">
+                        <Row className="plr-10">
+                            <Col className="practice-test-section-column">
+                                <div>
+                                    <CircularProgressWithLabel value={75} icon={<MenuBookIcon />} />
+                                </div>
+                                <div className="practice-test-section-column-button d-flex align-items-center justify-content-center">
+                                    <Button className="practice-test-button-play bold">
+                                        Reading
+                                        <i class="bi bi-play-btn-fill"></i>
+                                    </Button>
+                                </div>
+                            </Col>
+                            <Col className="practice-test-section-column">
+                                <div>
+                                    <CircularProgressWithLabel value={75} icon={<MenuBookIcon />} />
+                                </div>
+                                <div className="practice-test-section-column-button d-flex align-items-center justify-content-center">
+                                    <Button className="practice-test-button-play bold">
+                                        Reading
+                                        <i class="bi bi-play-btn-fill"></i>
+                                    </Button>
+                                </div>
+                            </Col>
+                            <Col className="practice-test-section-column">
+                                <div>
+                                    <CircularProgressWithLabel value={75} icon={<MenuBookIcon />} />
+                                </div>
+                                <div className="practice-test-section-column-button d-flex align-items-center justify-content-center">
+                                    <Button className="practice-test-button-play bold">
+                                        Reading
+                                        <i class="bi bi-play-btn-fill"></i>
+                                    </Button>
+                                </div>
+                            </Col>
+                            <Col className="practice-test-section-column">
+                                <div>
+                                    <CircularProgressWithLabel value={75} icon={<MenuBookIcon />} />
+                                </div>
+                                <div className="practice-test-section-column-button d-flex align-items-center justify-content-center">
+                                    <Button className="practice-test-button-play bold">
+                                        Reading
+                                        <i class="bi bi-play-btn-fill"></i>
+                                    </Button>
+                                </div>
+                            </Col>
+                        </Row>
+                    </Container>
+
+                </div>
+                <div className="practice-test-section">
+                    <h1 className="practice-test-section-title bold white">Practice 1</h1>
+                    <Container className="practice-test-section-part">
+                        <Row className="plr-10">
+                            <Col className="practice-test-section-column">
+                                <div>
+                                    <CircularProgressWithLabel value={75} icon={<MenuBookIcon />} />
+                                </div>
+                                <div className="practice-test-section-column-button d-flex align-items-center justify-content-center">
+                                    <Button className="practice-test-button-play bold">
+                                        Reading
+                                        <i class="bi bi-play-btn-fill"></i>
+                                    </Button>
+                                </div>
+                            </Col>
+                            <Col className="practice-test-section-column">
+                                <div>
+                                    <CircularProgressWithLabel value={75} icon={<MenuBookIcon />} />
+                                </div>
+                                <div className="practice-test-section-column-button d-flex align-items-center justify-content-center">
+                                    <Button className="practice-test-button-play bold">
+                                        Reading
+                                        <i class="bi bi-play-btn-fill"></i>
+                                    </Button>
+                                </div>
+                            </Col>
+                            <Col className="practice-test-section-column">
+                                <div>
+                                    <CircularProgressWithLabel value={75} icon={<MenuBookIcon />} />
+                                </div>
+                                <div className="practice-test-section-column-button d-flex align-items-center justify-content-center">
+                                    <Button className="practice-test-button-play bold">
+                                        Reading
+                                        <i class="bi bi-play-btn-fill"></i>
+                                    </Button>
+                                </div>
+                            </Col>
+                            <Col className="practice-test-section-column">
+                                <div>
+                                    <CircularProgressWithLabel value={75} icon={<MenuBookIcon />} />
+                                </div>
+                                <div className="practice-test-section-column-button d-flex align-items-center justify-content-center">
+                                    <Button className="practice-test-button-play bold">
+                                        Reading
+                                        <i class="bi bi-play-btn-fill"></i>
+                                    </Button>
+                                </div>
+                            </Col>
+                        </Row>
+                    </Container>
+
+                </div>
+                <div className="practice-test-section">
+                    <h1 className="practice-test-section-title bold white">Practice 1</h1>
+                    <Container className="practice-test-section-part">
+                        <Row className="plr-10">
+                            <Col className="practice-test-section-column">
+                                <div>
+                                    <CircularProgressWithLabel value={75} icon={<MenuBookIcon />} />
+                                </div>
+                                <div className="practice-test-section-column-button d-flex align-items-center justify-content-center">
+                                    <Button className="practice-test-button-play bold">
+                                        Reading
+                                        <i class="bi bi-play-btn-fill"></i>
+                                    </Button>
+                                </div>
+                            </Col>
+                            <Col className="practice-test-section-column">
+                                <div>
+                                    <CircularProgressWithLabel value={75} icon={<MenuBookIcon />} />
+                                </div>
+                                <div className="practice-test-section-column-button d-flex align-items-center justify-content-center">
+                                    <Button className="practice-test-button-play bold">
+                                        Reading
+                                        <i class="bi bi-play-btn-fill"></i>
+                                    </Button>
+                                </div>
+                            </Col>
+                            <Col className="practice-test-section-column">
+                                <div>
+                                    <CircularProgressWithLabel value={75} icon={<MenuBookIcon />} />
+                                </div>
+                                <div className="practice-test-section-column-button d-flex align-items-center justify-content-center">
+                                    <Button className="practice-test-button-play bold">
+                                        Reading
+                                        <i class="bi bi-play-btn-fill"></i>
+                                    </Button>
+                                </div>
+                            </Col>
+                            <Col className="practice-test-section-column">
+                                <div>
+                                    <CircularProgressWithLabel value={75} icon={<MenuBookIcon />} />
+                                </div>
+                                <div className="practice-test-section-column-button d-flex align-items-center justify-content-center">
+                                    <Button className="practice-test-button-play bold">
+                                        Reading
+                                        <i class="bi bi-play-btn-fill"></i>
+                                    </Button>
+                                </div>
                             </Col>
                         </Row>
                     </Container>

@@ -22,6 +22,11 @@
   padding-right: 200px;
 }
 
+.plr-10 {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
 .ta-center {
   text-align: center
 }

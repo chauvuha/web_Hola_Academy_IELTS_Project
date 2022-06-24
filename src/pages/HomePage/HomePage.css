@@ -119,6 +119,11 @@
         padding-right: 20px;
     }
 
+    .plr-10 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
     #homepage-banner-image {
         padding-top: 350px;
         padding-bottom: 500px;
