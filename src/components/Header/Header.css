@@ -4,6 +4,11 @@
     font-weight: bold;
 }
 
+#header-container nav a {
+        text-decoration-line: none;
+        margin-right: 16px;
+}
+
 #header-container nav .navbar-brand{
     font-size: 18px;
 }

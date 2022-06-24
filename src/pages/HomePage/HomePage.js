@@ -4,15 +4,15 @@ import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Collapse from 'react-bootstrap/Collapse';
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
 
 
 
 
 
 export default function HomePage() {
-    const [open, setOpen] = useState(false);
-    const [openn, setOpenn] = useState(false);
+    // const [open, setOpen] = useState(false);
+    // const [openn, setOpenn] = useState(false);
 
 
     return (

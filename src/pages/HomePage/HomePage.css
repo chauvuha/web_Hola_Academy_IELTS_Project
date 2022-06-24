@@ -30,6 +30,12 @@
     font-size: 35px;
 }
 
+#homepage-banner-image button:hover,
+.homepage-3rd-sec button:hover {
+    background: var(--e-light-purple);
+    color: var(--e-dark-purple);
+}
+
 .homepage-2nd-sec {
     position: relative;
     height: 600px;
@@ -72,7 +78,6 @@
     background-color: #EDEDED;
     padding-bottom: 40px;
 }
-
 
 .course,
 .real-test-content .test,

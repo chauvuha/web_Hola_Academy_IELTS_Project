@@ -10,11 +10,9 @@ import ReactDOM from "react-dom";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 
-
 function App() {
   return (
     <Router>
-
       <div className="App">
         <Header />
         <Routes>
@@ -26,7 +24,6 @@ function App() {
         </Routes>
         <Footer />
       </div>
-
     </Router>
   );
 }
