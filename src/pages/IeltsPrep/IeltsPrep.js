@@ -1,4 +1,4 @@
-import './IeltsGeneral.css';
+import './IeltsPrep.css';
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';

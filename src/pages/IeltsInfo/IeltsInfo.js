@@ -5,9 +5,6 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Button from 'react-bootstrap/Button';
 
-
-
-
 export default function IeltsInfo() {
     return (
         <div className="ielts-info-page">
