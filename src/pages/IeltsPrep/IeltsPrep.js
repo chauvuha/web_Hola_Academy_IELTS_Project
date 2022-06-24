@@ -19,7 +19,6 @@ function CircularProgressWithLabel(props) {
                     color: (theme) =>
                         theme.palette.grey[theme.palette.mode === 'light' ? 400 : 800],
                 }}
-                // size={140}
                 thickness={4}
                 {...props}
                 value={100}
@@ -57,7 +56,6 @@ function CircularProgressWithLabel(props) {
                         strokeLinecap: 'round',
                     },
                 }}
-                // size={140}
                 thickness={4}
                 {...props}
             />
@@ -66,7 +64,7 @@ function CircularProgressWithLabel(props) {
     );
 }
 
-export default function IeltsGeneral() {
+export default function IeltsPrep() {
     return (
         <div>
             <div className="ielts-general-banner ta-center plr-20">
@@ -77,12 +75,12 @@ export default function IeltsGeneral() {
                 <Container>
                     <Row className="ielts-test-selection">
                         <Col>
-                            <Button className="ielts-test-selection-button"><h1>
+                            <Button className="top-button ielts-test-selection-button"><h1>
                                 <i class="bi bi-newspaper"></i>
                                 IELTS Academic</h1></Button>
                         </Col>
                         <Col>
-                            <Button className="ielts-test-selection-button"><h1>
+                            <Button className="top-button ielts-test-selection-button"><h1>
                                 <i class="bi bi-play-btn-fill"></i>
                                 IELTS General Training</h1></Button>
                         </Col>

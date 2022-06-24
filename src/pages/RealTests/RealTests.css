@@ -1,3 +1,34 @@
+.real-test-page {
+    padding-bottom: 200px;
+}
+
 .real-test-page .real-test-banner {
     background: white
+}
+
+.real-test-page .top-button {
+    height: 70px;
+    margin-bottom: 40px;
+}
+
+.real-test-sidebar .accordion-item:last-of-type .accordion-button.collapsed,
+.real-test-sidebar.accordion-item:first-of-type .accordion-button.collapsed,
+.real-test-sidebar .accordion-item:first-of-type .accordion-button,
+.real-test-sidebar .accordion-item:last-of-type .accordion-button {
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.real-test-sidebar .accordion-item .accordion-body button {
+    border-radius: 10px;
+}
+
+.real-test-content .test-image {
+    height: 197.27px;
+}
+
+.real-test-content .test {
+    height: 314.66px
 }

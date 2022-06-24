@@ -12,7 +12,8 @@
     padding-bottom: 100px;
 }
 
-.ielts-test-page button.ielts-test-selection-button {
+.ielts-test-page button.ielts-test-selection-button,
+.real-test-page .top-button {
     background: #EDEDED;
     border-radius: 20px;
     width: 100%;
@@ -22,16 +23,19 @@
     height: 120px;
 }
 
-.ielts-test-page button.ielts-test-selection-button h1 {
+.ielts-test-page button.ielts-test-selection-button h1,
+.top-button h1 {
     cursor: pointer;
 }
 
-.ielts-test-page button.ielts-test-selection-button h1 .bi {
+.ielts-test-page button.ielts-test-selection-button h1 .bi,
+.top-button .bi {
     margin-right: 12px;
 }
 
 
-.ielts-test-page button:hover {
+.ielts-test-page button:hover,
+.real-test-page .top-button:hover {
     background: var(--e-mid-light-purple);
     color: #EDEDED;
 }

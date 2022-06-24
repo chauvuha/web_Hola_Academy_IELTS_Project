@@ -1,4 +1,5 @@
-.ielts-info-sidebar .accordion-item {
+.ielts-info-sidebar .accordion-item,
+.real-test-sidebar .accordion-item {
     border: none;
 }
 
@@ -10,11 +11,8 @@
     height: 100px !important;
 }
 
-.ielts-info-sidebar .accordion-item .accordion-body {
-    background: transparent;
-}
-
-.ielts-info-sidebar .accordion-item .accordion-button {
+.ielts-info-sidebar .accordion-item .accordion-button,
+.real-test-sidebar .accordion-item .accordion-button {
     max-width: 368px;
     height: 43px;
     background: #916BBF;
@@ -23,7 +21,8 @@
     margin-bottom: 8px;
 }
 
-.ielts-info-sidebar .accordion-item .accordion-body button {
+.ielts-info-sidebar .accordion-item .accordion-body button,
+.real-test-sidebar .accordion-item .accordion-body button {
     width: 100%;
     height: 38.15px;
     background: #EDEDED;
@@ -33,7 +32,8 @@
     margin-bottom: 8px;
 }
 
-.ielts-info-sidebar .accordion-item .accordion-body button:hover {
+.ielts-info-sidebar .accordion-item .accordion-body button:hover,
+.real-test-sidebar .accordion-item .accordion-body button:hover {
     background: var(--e-dark-yellow);
     color: var(--e-mid-dark-purple);
 }
