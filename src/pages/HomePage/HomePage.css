@@ -75,7 +75,8 @@
 
 
 .course,
-.real-test-content .test {
+.real-test-content .test,
+.yourcourse-page .your-course {
     background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
@@ -84,7 +85,8 @@
 }
 
 .course-image,
-.real-test-content .test-image {
+.real-test-content .test-image,
+.yourcourse-page .your-course-image {
     background: linear-gradient(360deg, #3D2C8D 0%, rgba(61, 44, 141, 0) 100%), linear-gradient(0deg, rgba(61, 44, 141, 0.3), rgba(61, 44, 141, 0.3)), url(https://media.edutopia.org/styles/responsive_2880px_16x9/s3/sites/default/files/masters/2022-01/iStock-1324921652-crop.jpg);
     border-radius: 20px 20px 0px 0px;
     background-position: center center;
@@ -94,12 +96,14 @@
 }
 
 .course-text,
-.real-test-content .test-image {
+.real-test-content .test-image,
+.yourcourse-page .your-course-image {
     font-size: 22px;
 }
 
 .course-image-text,
-.real-test-content .test-image-text {
+.real-test-content .test-image-text,
+.yourcourse-page .your-course-image-text {
     padding-left: 20px;
 }
 

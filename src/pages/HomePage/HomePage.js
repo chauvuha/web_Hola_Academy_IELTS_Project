@@ -201,38 +201,6 @@ export default function HomePage() {
                     </Row>
 
                 </Container>
-                <Button
-                    onClick={() => setOpen(!open)}
-                    aria-controls="example-collapse-text"
-                    aria-expanded={open}
-                >
-                    click
-                </Button>
-
-                <Button
-                    onClick={() => setOpenn(!openn)}
-                    aria-controls="example-collapse-text"
-                    aria-expanded={openn}
-                >
-                    click
-                </Button>
-
-                <div>
-                    <Collapse in={open}>
-                        <div id="example-collapse-text">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
-                            terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer
-                            labore wes anderson cred nesciunt sapiente ea proident.
-                        </div>
-                    </Collapse>
-                    <Collapse in={openn}>
-                        <div id="example-collapse-text">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
-                            terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer
-                            labore wes anderson cred nesciunt sapiente ea proident.
-                        </div>
-                    </Collapse>
-                </div>
             </div>
         </div>
     )

@@ -4,8 +4,6 @@ import './Header.css'
 import Navbar from 'react-bootstrap/Navbar';
 import Button from 'react-bootstrap/Button';
 
-import NavDropdown from 'react-bootstrap/NavDropdown';
-
 export default function Header() {
     return (
         <div className="header" id="header-container">
@@ -18,25 +16,14 @@ export default function Header() {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto">
-                            <Nav.Link href="#features">Home</Nav.Link>
-                            <Nav.Link href="#pricing">IELTS Exam Information</Nav.Link>
-                            <Nav.Link href="#features">IELTS Prep</Nav.Link>
-                            <Nav.Link href="#features">Real Tests</Nav.Link>
-                            <Nav.Link href="#features">Tips</Nav.Link>
-                            <Nav.Link href="#features">Your courses</Nav.Link>
+                            <Nav.Link href="/">Home</Nav.Link>
+                            <Nav.Link href="/ieltsinfo">IELTS Exam Information</Nav.Link>
+                            <Nav.Link href="/ieltsprep">IELTS Prep</Nav.Link>
+                            <Nav.Link href="/realtests">Real Tests</Nav.Link>
+                            <Nav.Link href="/tips">Tips</Nav.Link>
+                            <Nav.Link href="/yourcourses">Your courses</Nav.Link>
                             <Button id="login-header-button">Log In</Button>
                             <Button id="signup-header-button">Sign Up</Button>
-                            {/* <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-                                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.2">
-                                    Another action
-                                </NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                                <NavDropdown.Divider />
-                                <NavDropdown.Item href="#action/3.4">
-                                    Separated link
-                                </NavDropdown.Item>
-                            </NavDropdown> */}
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

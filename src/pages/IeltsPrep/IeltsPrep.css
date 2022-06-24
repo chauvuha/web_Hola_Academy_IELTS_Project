@@ -13,7 +13,8 @@
 }
 
 .ielts-test-page button.ielts-test-selection-button,
-.real-test-page .top-button {
+.real-test-page .top-button,
+.yourcourse-page .top-button {
     background: #EDEDED;
     border-radius: 20px;
     width: 100%;
@@ -35,7 +36,8 @@
 
 
 .ielts-test-page button:hover,
-.real-test-page .top-button:hover {
+.real-test-page .top-button:hover,
+.yourcourse-page .top-button:hover {
     background: var(--e-mid-light-purple);
     color: #EDEDED;
 }
