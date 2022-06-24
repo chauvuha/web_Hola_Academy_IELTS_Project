@@ -12,14 +12,14 @@ import Box from '@mui/material/Box';
 
 function CircularProgressWithLabel(props) {
     return (
-        <Box sx={{ position: 'relative' }}>
+        <Box sx={{ position: 'relative' }} className="ielts-prep-column-circular-progress-container">
             <CircularProgress
                 variant="determinate"
                 sx={{
                     color: (theme) =>
                         theme.palette.grey[theme.palette.mode === 'light' ? 400 : 800],
                 }}
-                size={140}
+                // size={140}
                 thickness={4}
                 {...props}
                 value={100}
@@ -35,7 +35,7 @@ function CircularProgressWithLabel(props) {
                 justifyContent="center"
                 sx={{ position: 'absolute' }}
             >
-                <Typography variant="caption" component="div" color="text.secondary" size="10rem"
+                <Typography className="ielts-prep-column-circular-progress" variant="caption" component="div" color="text.secondary" size=""
                 >
                     <div className="d-flex flex-column">
                         {props.icon}
@@ -57,7 +57,7 @@ function CircularProgressWithLabel(props) {
                         strokeLinecap: 'round',
                     },
                 }}
-                size={140}
+                // size={140}
                 thickness={4}
                 {...props}
             />

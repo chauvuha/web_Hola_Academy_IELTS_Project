@@ -32,28 +32,24 @@
 
 
 .ielts-test-page button:hover {
-    background: var(--e-mid-dark-purple);
+    background: var(--e-mid-light-purple);
     color: #EDEDED;
 }
 
-.css-i4bv87-MuiSvgIcon-root {
-    width: 4em !important;
-    height: 3em !important;
+.ielts-prep-column-circular-progress-container  .css-i4bv87-MuiSvgIcon-root {
+    width: 4em;
+    height: 3em;
 }
 
-.css-ol7wxs-MuiTypography-root {
-    text-align: center !important;
+.ielts-prep-column-circular-progress-container .css-ol7wxs-MuiTypography-root {
+    text-align: center;
 }
 
-.MuiTypography-caption {
-    font-size: 25px !important
+.ielts-prep-column-circular-progress.MuiTypography-caption {
+    font-size: 25px;
 }
 
-.css-i4bv87-MuiSvgIcon-root {
-    position: relative;
-}
-
-.MuiCircularProgress-determinate {
+.ielts-prep-column-circular-progress-container .MuiCircularProgress-determinate {
     width: 100% !important;
     height: 100% !important;
     padding: 20px;
