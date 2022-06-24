@@ -5,4 +5,63 @@
     background-size: cover;
     padding-bottom: 50px;
     padding-top: 50px;
+    margin-bottom: 40px;
 }
+
+.ielts-test-page button {
+    background: #EDEDED;
+    border-radius: 20px;
+    width: 100%;
+    height: 70px;
+    border: none;
+}
+
+.ielts-test-page button:hover {
+    background: var(--e-dark-purple);
+    color: #EDEDED;
+}
+
+  .css-i4bv87-MuiSvgIcon-root {
+      width: 4em !important;
+      height: 3em !important;
+
+  }
+
+  .css-ol7wxs-MuiTypography-root {
+      text-align: center !important;
+  }
+
+  .MuiTypography-caption {
+    font-size: 25px !important
+
+  }
+
+  .css-i4bv87-MuiSvgIcon-root {
+      position: relative;
+  }
+
+  .MuiCircularProgress-determinate {
+      width: 100% !important;
+      height: 100% !important;
+      padding: 20px;
+  }
+
+  .practice-test-section h1 {
+    margin-top: 20px;
+    background: #3D2C8D;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-bottom: 0;
+    padding-left: 20px;
+  }
+
+  .practice-test-section-part {
+    background: #EDEDED;
+    border-radius: 0px 0px 20px 20px;
+    padding: 20px;
+  }
+
+  .ielts-test-page .practice-test-button-play {
+      background: var(--e-dark-yellow);
+      height: 53px;
+  }
