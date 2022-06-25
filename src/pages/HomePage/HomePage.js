@@ -3,18 +3,8 @@ import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
-import Collapse from 'react-bootstrap/Collapse';
-// import React, { useState } from 'react';
-
-
-
-
 
 export default function HomePage() {
-    // const [open, setOpen] = useState(false);
-    // const [openn, setOpenn] = useState(false);
-
-
     return (
         <div className="homepage" id="homepage">
             <div id="homepage-banner-image" className="d-flex  plr-20 white">
@@ -72,21 +62,25 @@ export default function HomePage() {
 
                 </div>
             </div>
-            <div className="homepage-3rd-sec ta-center plr-20">
-                <h1 className="purple bold">QUYỀN LỢI CỦA HỌC VIÊN</h1>
-                <p className="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lectus malesuada gravida urna praesent lobortis consequat. Facilisi eget semper convallis feugiat nunc lectus odio.
+            <div className="homepage-3rd-sec plr-20">
+                <h1 className="purple bold ta-center">QUYỀN LỢI CỦA HỌC VIÊN</h1>
+                <p className="ta-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lectus malesuada gravida urna praesent lobortis consequat. Facilisi eget semper convallis feugiat nunc lectus odio.
                 </p>
-                <div className="homepage-3rd-list  d-flex flex-column align-items-left">
-                    <h3 className="purple">Kiểm tra đầu vào và tư vấn lộ trình
-                    </h3>
-                    <h3 className="purple">Kiểm tra đầu vào và tư vấn lộ trình
-                    </h3>
-                    <h3 className="purple">Truy cập hệ thống bài luyện tập không giới hạn
-                    </h3>
-                    <h3 className="purple">Truy cập các tips làm bài độc quyền từ Hello-IELTS
-                    </h3>
+                <div className="homepage-3rd-list d-flex flex-column align-items-center">
+                    <div>
+                        <h3 className="purple">1. Kiểm tra đầu vào và tư vấn lộ trình
+                        </h3>
+                        <h3 className="purple">2. Kiểm tra đầu vào và tư vấn lộ trình
+                        </h3>
+                        <h3 className="purple">3. Truy cập hệ thống bài luyện tập không giới hạn
+                        </h3>
+                        <h3 className="purple">4. Truy cập các tips làm bài độc quyền từ Hello-IELTS
+                        </h3>
+                    </div>
                 </div>
-                <Button className="bold">Tìm hiểu thêm</Button>
+                <div className="3rd-button ta-center">
+                    <Button className="bold">Tìm hiểu thêm</Button>
+                </div>
             </div>
             <div className="homepage-4th-sec plr-20">
                 <h1 className="purple bold ta-center">JOIN US</h1>
